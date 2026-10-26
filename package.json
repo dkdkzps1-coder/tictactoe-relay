@@ -1,0 +1,16 @@
+{
+  "name": "tictactoe-relay-server",
+  "version": "1.0.0",
+  "description": "Relay server for the overlay tic-tac-toe",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
